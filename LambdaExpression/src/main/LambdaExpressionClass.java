@@ -34,6 +34,8 @@ public class LambdaExpressionClass {
 			case 2:
 				MethodReference.methodReference();
 				break;
+			case 3:
+				FunctionalInterface.fun
 			default:
 				break;
 			}

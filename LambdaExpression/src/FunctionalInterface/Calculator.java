@@ -1,6 +1,5 @@
 package FunctionalInterface;
 
-
 /**
  * 
  * <pre> 
@@ -14,8 +13,6 @@ package FunctionalInterface;
  * </pre>
  *
  */
-@FunctionalInterface
-public interface ProblemSolver {
-	boolean test(int n);
+public interface Calculator {
+	int calculate(int a, int b);
 }
-

@@ -52,14 +52,14 @@ public class MethodReference {
 	 * 2. Reference to an Instance Method of a Particular Object
 	 */
 	private static void methodReferenceEx2() {
-		MathOperators lambdaMathOpera = new MathOperators();
+		MathOperators mathOpera = new MathOperators();
 
 		// Lambda Expression
-		BiFunction<Integer, Integer, Integer> lambdaMultiply = (a, b) -> lambdaMathOpera.multiply(a, b);
+		BiFunction<Integer, Integer, Integer> lambdaMultiply = (a, b) -> mathOpera.multiply(a, b);
 		System.out.println(lambdaMultiply.apply(1, 2));
 
 		// 2. Reference to an Instance Method of a Particular Object
-		BiFunction<Integer, Integer, Integer> methodRefMultiply = lambdaMathOpera::multiply;
+		BiFunction<Integer, Integer, Integer> methodRefMultiply = mathOpera::multiply;
 		System.out.println(methodRefMultiply.apply(3, 4));
 
 	}
