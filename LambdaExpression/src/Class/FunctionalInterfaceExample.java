@@ -2,7 +2,7 @@ package Class;
 
 import FunctionalInterface.Calculator;
 
-public class FunctionalInterface {
+public class FunctionalInterfaceExample {
 	
 	public static void functionalInterface() {
 		System.out.println("Functional Interface");

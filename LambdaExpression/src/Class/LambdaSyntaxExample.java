@@ -3,7 +3,7 @@ package Class;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
-public class LambdaSyntax {
+public class LambdaSyntaxExample {
 
 	/**
 	 * Lambda Syntax 

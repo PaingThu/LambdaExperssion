@@ -9,7 +9,7 @@ import java.util.function.IntFunction;
 
 import FunctionalInterface.ProblemSolver;
 
-public class MethodReference {
+public class MethodReferenceExample {
 
 	/**
 	 * Lambda Expression & Method Reference Example 
