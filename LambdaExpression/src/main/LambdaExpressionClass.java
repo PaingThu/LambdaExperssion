@@ -29,13 +29,13 @@ public class LambdaExpressionClass {
 			TimeUnit.SECONDS.sleep(2);
 			System.out.println("You can learn and see the output of the following fields.");
 			TimeUnit.SECONDS.sleep(2);
-			System.out.println("1. Lamda Syntax.");
+			System.out.println("1. Lambda Syntax.");
 			TimeUnit.SECONDS.sleep(2);
 			System.out.println("2. Method Reference");
 			TimeUnit.SECONDS.sleep(2);
 			System.out.println("3. Functional Interface");
 			TimeUnit.SECONDS.sleep(2);
-			System.out.println("Enter the number of field that you want to learn and see output.");
+			System.out.println("Enter the number of field that you want to see output.");
 			Scanner sc = new Scanner(System.in);
 			int  field = sc.nextInt();
 			switch (field) {
