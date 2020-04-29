@@ -1,4 +1,4 @@
-package SampleClass;
+package Class;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
@@ -11,6 +11,8 @@ public class LambdaSyntax {
 	 * (int arg1, String arg2) -> {System.outprintln("Two arguments " + arg1 + " and " + arg2);}
 	 */
 	public static void lambdaSyntax() {
+		
+		
 		
 		System.out.println("Lamda Syntax");
 		
