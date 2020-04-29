@@ -1,7 +1,7 @@
 package FunctionalInterface;
 
 //Functional Interface
-public interface Predicate {
+public interface ProblemSolver {
 	boolean test(int n);
 }
 
