@@ -3,6 +3,7 @@ package main;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
+import Class.CollectionExample;
 import Class.FunctionalInterfaceExample;
 import Class.LambdaSyntaxExample;
 import Class.MethodReferenceExample;
@@ -26,15 +27,17 @@ public class LambdaExpressionClass {
 	public static void main(String[] args) {
 		try {
 			System.out.println("Welcome to Learning Lambda Expression ");
-			TimeUnit.SECONDS.sleep(2);
+			TimeUnit.SECONDS.sleep(1);
 			System.out.println("You can learn and see the output of the following fields.");
-			TimeUnit.SECONDS.sleep(2);
+			TimeUnit.SECONDS.sleep(1);
 			System.out.println("1. Lambda Syntax.");
-			TimeUnit.SECONDS.sleep(2);
+			
 			System.out.println("2. Method Reference");
-			TimeUnit.SECONDS.sleep(2);
+			
 			System.out.println("3. Functional Interface");
-			TimeUnit.SECONDS.sleep(2);
+			
+			System.out.println("4. Collection");
+			TimeUnit.SECONDS.sleep(1);
 			System.out.println("Enter the number of field that you want to see output.");
 			Scanner sc = new Scanner(System.in);
 			int  field = sc.nextInt();
@@ -47,6 +50,10 @@ public class LambdaExpressionClass {
 				break;
 			case 3:
 				FunctionalInterfaceExample.functionalInterface();
+				break;
+			case 4:
+				CollectionExample.collection();
+				break;
 			default:
 				break;
 			}
